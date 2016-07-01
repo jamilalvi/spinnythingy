@@ -14,7 +14,7 @@ RectGuy = require(kIncPath .. 'player')
 AppState = require(kIncPath .. 'appstate')
 Projectiles = require(kIncPath .. 'projectiles')
 
-
+Enemies = require(kIncPath .. 'enemies')
 
 
 -- Create local alias

@@ -1,5 +1,4 @@
-local kIncPath = '../lib/'
-local class = require(kIncPath .. 'middleclass')
+local class = require('lib.middleclass')
 
 -- Aliases
 local gr = love.graphics
