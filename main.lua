@@ -2,19 +2,13 @@
 local ffi = require 'ffi'
 
 -- Load 3rd party libraries from lib
-local kIncPath = './lib/'
-local class = require(kIncPath .. 'middleclass')
-local vector = require(kIncPath .. 'vector-light')
-
+local class = require('lib.middleclass')
 
 -- Import classes from our own sources
-local kIncPath = './src/'
-
-RectGuy = require(kIncPath .. 'player')
-AppState = require(kIncPath .. 'appstate')
-Projectiles = require(kIncPath .. 'projectiles')
-
-Enemies = require(kIncPath .. 'enemies')
+RectGuy = require('src.player')
+AppState = require('src.appstate')
+Projectiles = require('src.projectiles')
+Enemies = require('src.enemies')
 
 
 -- Create local alias
